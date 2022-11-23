@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<!--link rel="stylesheet" href="/assets/css/main.css" /-->
+		<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		%sveltekit.head%
+	</head>
+	<body class="is-preload">
+		%sveltekit.body%
+		<script>
+			const body = document.querySelector("body");
+			const isIE = false || !!document.documentMode;
+			const isEdge = !isIE && !!window.StyleMedia;
+
+			if (isIE || isEdge) body.addClass("is-ie");
+			
+		</script>
+	</body>
+</html>

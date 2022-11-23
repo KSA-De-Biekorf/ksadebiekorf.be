@@ -1,0 +1,13 @@
+# Text editor ignore
+
+/node_modules
+/build
+
+**/*.jpg
+**/*.png
+**/*.svg
+**/*.wof*
+**/*.ttf
+**/*.eot
+pnpm-lock.yaml
+package.lock

@@ -1,7 +1,7 @@
 import XCTest
 import class Foundation.Bundle
 
-final class image_builderTests: XCTestCase {
+final class heic_to_jpegTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
@@ -15,7 +15,7 @@ final class image_builderTests: XCTestCase {
         // Mac Catalyst won't have `Process`, but it is supported for executables.
         #if !targetEnvironment(macCatalyst)
 
-        let fooBinary = productsDirectory.appendingPathComponent("image-builder")
+        let fooBinary = productsDirectory.appendingPathComponent("heic_to_jpeg")
 
         let process = Process()
         process.executableURL = fooBinary

@@ -7,7 +7,7 @@
 	<p>
     Spelen op het plein, in het bos of op het strand, bij de pagadders is het altijd plezant! 
     Deze ravotters zijn een vrolijke bende die al wat meer gewoon zijn.
-    Samen met Emma, Julie, Yorne & Louise  doen de pagadders gedurende het jaar allerlei activiteiten zoals pleinspelen, knutselen, weekends, bospelen… De leiding stelt activiteiten op met de nadruk op spelen, creativiteit en samenzijn. De spelletjes die gespeeld worden zijn uitdagend, maar tegelijk ook spannend. 
+    Samen met Lilou, Louise en Aline doen de pagadders gedurende het jaar allerlei activiteiten zoals pleinspelen, knutselen, weekends, bospelen… De leiding stelt activiteiten op met de nadruk op spelen, creativiteit en samenzijn. De spelletjes die gespeeld worden zijn uitdagend, maar tegelijk ook spannend. 
     Je leert op je eigen benen te staan en samenwerken met leeftijdsgenoten. In het begin van de zomer gaan we een week op kamp. Iedereen tussen 8 en 10 jaar is welkom bij ons!
   </p>
 </div>

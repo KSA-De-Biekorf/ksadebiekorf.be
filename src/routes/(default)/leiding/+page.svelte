@@ -3,12 +3,14 @@
   import Spotlight from '$lib/forty/spotlight.svelte';
   import Footer from '$lib/forty/footer.svelte';
 
-  import kab from '$lib/images/leiding/kab.jpg';
-  import pag from '$lib/images/leiding/pag.jpg';
-  import jkn from '$lib/images/leiding/jkn.jpg';
-  import kn from '$lib/images/leiding/kn.jpg';
-  import jhn from '$lib/images/leiding/jhn.jpg';
-  import hn from '$lib/images/leiding/hn.jpg';
+  const image_files = import.meta.glob('$lib/images/leiding/*.jpg', { eager: true });
+  const images: Map<string, string> = new Map();
+  let files = Object.keys(image_files);
+  for (let file of files) {
+    let p: string[] = file.split("/");
+    let key = p[p.length - 1].replace(".jpg", ""); // last path element + remove file extension
+    images.set(key, (image_files[file] as { default: string }).default as string);
+  }
   
   enum Gen {
     Man, Vrouw, X
@@ -18,85 +20,94 @@
     {
       id: "kab",
       name: "Kabouters",
-      image: kab,
       leiding: [
         {
           aanspreking: Gen.Vrouw,
           phone: "0472 94 58 21",
-          name: "Julie Rosseel"
+          name: "Julie Rosseel",
         }, {
-          name: "Manon Keirse"
+          name: "Hanne Renders",
         }, {
-          name: "Rikke Hollevoet"
+          name: "Noor Bekemans",
+        }, {
+          name: "Valentine Vermeire",
         }
       ]
     }, {
       id: "pag",
       name: "Pagadders",
-      image: pag,
       leiding: [
         {
           aanspreking: Gen.Vrouw,
-          phone: "0479 71 85 43",
-          name: "Jana Rosseel"
+          phone: "0468 53 88 98",
+          name: "Lilou Dosselaere",
         }, {
-          name: "Louise Brusselle"
+          name: "Louise Brusselle",
         }, {
-          name: "Lilou Dosselaere"
+          name: "Elias Hollevoet",
+        }, {
+          name: "Mehrbod Farsad",
         }
       ]
     }, {
       id: "jkn",
       name: "Jongknapen",
-      image: jkn,
       leiding: [
         {
           aanspreking: Gen.Vrouw,
-          phone: "0473 28 93 85",
-          name: "Silke Pattyn"
+          phone: "0468 00 29 40",
+          name: "Perle Vanhie",
         }, {
-          name: "Valentine Vermeire"
+          name: "Rikke Hollevoet",
         }, {
-          name: "Clovis Demey"
+          name: "Rune Vandensteen",
+        }, {
+          name: "Lukas Devriendt"
         }
       ]
     }, {
       id: "kn",
       name: "Knapen",
-      image: kn,
       leiding: [
         {
-          aanspreking: Gen.Man,
-          phone: "0484 02 69 21",
-          name: "Theodoor Demey"
+          aanspreking: Gen.Vrouw,
+          phone: "0471 87 56 27",
+          name: "Briek Debusschere",
         }, {
-          name: "Lieze Maréchal"
+          name: "Mauro Depauw",
+        }, {
+          name: "Arwen Masscho",
         }
       ]
     }, {
       id: "jhn",
       name: "Jonghernieuwers",
-      image: jhn,
       leiding: [
         {
           aanspreking: Gen.Vrouw,
-          phone: "0468 27 99 90",
-          name: "Lux Dosselaere"
+          phone: "0492 41 57 69",
+          name: "Emile Vandenheede",
         }, {
-          name: "Tine Ruckebusch"
-        }, {
-          name: "Jonas Everaert"
+          name: "Clovis Demey",
+        }
+      ]
+    }, {
+      id: "Vlinder",
+      name: "Vlinder",
+      leiding: [
+        {
+          name: "Willem Renders",
         }
       ]
     }, {
       id: "hn",
       name: "Hernieuwers",
-      image: hn,
       leiding: [
         {
-          aanspreking: Gen.Vrouw,
-          phone: "0489 64 91 21",
-          name: "Lena Van Heddegem"
+          aanspreking: Gen.Man,
+          name: "Tine Ruckebusch",
+        }, {
+          name: "Lieze Maréchal"
         }
       ]
     },
@@ -104,6 +115,6 @@
 </script>
 
 <Main>
-  <Spotlight bannen={bannen} />
+  <Spotlight bannen={bannen} images={images} />
 </Main>
 <Footer/>

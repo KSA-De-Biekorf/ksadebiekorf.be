@@ -10,7 +10,7 @@
     De leeftijd 6 tot 8 jaar zijn onze kabouters, maar ze vormen 1 groep! 
     Onze activiteiten met de (piep)kabouters draaien rond ravotten en spelen. 
     We zetten ook in op sociaal contact en op ervaringen opdoen tijdens de activiteiten. 
-    Een groep waarin ze hun fantasie kwijt kunnen en geen avontuur te groot is om aan te gaan! Manon, Veerle, Silke & Julie staan dan ook steeds klaar om hun te helpen tijdens hun grootse uitdagingen
+    Een groep waarin ze hun fantasie kwijt kunnen en geen avontuur te groot is om aan te gaan! Julie, Rikke, Mauro en Henri staan dan ook steeds klaar om hun te helpen tijdens hun grootse uitdagingen
   </p>
 </div>
 

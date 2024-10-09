@@ -1,3 +1,8 @@
 # heic_to_jpeg
 
-A description of this package.
+## Usage
+
+```sh
+swift run heic_to_jpeg xxx.heic xxx.jpeg
+```
+

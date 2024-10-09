@@ -14,32 +14,45 @@
 
   onDestroy(unsubscribe);
 </script>
-  
-<div class="modal" id="modal-content" transition:fade>
-  <div class="close-container">
-    <div class="close-button">
-      <a href="" alt="close" class="fa fa-times"
-        on:click={(e) => {
-          e.preventDefault();
-          onHide();
-        }}
-      ></a>
+
+<div class="modal-close" on:click={(e) => {
+    e.preventDefault();
+    onHide();
+  }
+}>
+  <div class="modal" id="modal-content" transition:fade>
+    <div class="close-container">
+      <div class="close-button">
+        <a href="" alt="close" class="fa fa-times"
+          on:click={(e) => {
+            e.preventDefault();
+            onHide();
+          }}
+        ></a>
+      </div>
     </div>
+    <section id={_modalController.title}>
+      <div class="inner">
+        <svelte:component this={_modalController.content}/>
+    </section>
   </div>
-  <section id={_modalController.title}>
-    <div class="inner">
-      <svelte:component this={_modalController.content}/>
-  </section>
 </div>
 
 <style lang="scss">
+  /* NOT WORKING */
+  .modal-close {
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+  }
+
   .modal {
     border: 1px solid #d1d5db;
     border-radius: 0.25rem;
     position: fixed;
     top: 0;
     left: 5%;
-    z-index: 9999;
+    z-index: 9998;
     margin-top: 75px;
 
     width: 90%;
@@ -62,7 +75,7 @@
 
       background-color: white;
       border-radius: 100%;
-      $size: 25px;
+      $size: 2rem;
       width: $size;
       height: $size;
 
@@ -74,6 +87,7 @@
       line-height: $size;
 
       a.fa {
+        margin: auto;
         border-bottom: none;
         color: black;
       }

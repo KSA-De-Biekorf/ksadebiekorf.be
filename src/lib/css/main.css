@@ -3033,7 +3033,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 600px) {
 
 			.spotlights > section {
 				display: block;
@@ -3948,3 +3948,67 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+/**************/
+/* Custom css */
+/**************/
+
+/* img.leiding-image { */
+/* 	max-height: 75vh; */
+/* 	max-width: 25vw; */
+/* 	aspect-ratio: initial; */
+/* 	padding: 1rem; */
+/* } */
+
+.polaroid {
+	width: 80%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+
+.polaroid p.title {
+	color: black;
+	font-weight: 900;
+}
+
+.polaroid p {
+	color: black;
+	margin-bottom: 0;
+}
+
+.polaroid b {
+	color: black;
+}
+
+.polaroid img {
+	padding: 0.5rem;
+	width: 100%;
+	aspect-ratio: 1/1; /* height same as width */
+	object-fit: cover; /* crop image */
+}
+
+.leiding-divider {
+	width: 25%;
+	margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+	.leiding-divider {
+		width: 33.33%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.leiding-divider {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.leiding-divider {
+		width: 100%;
+	}
+}
+

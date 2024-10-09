@@ -8,6 +8,6 @@
     graag eens in het weekend samenkomen. Iedere maand wordt er (minimum) één
     activiteit georganiseerd. Naast deze activiteiten gaan wij ook graag samen
     eens een pintje gaan drinken. Heb je zin om je aan te sluiten bij onze
-    hernieuwerban? Contacteer dan gerust <a href="/leiding#hn">Lena</a> :) 
+    hernieuwerban? Contacteer dan gerust <a href="/leiding#hn">Jonas</a> :) 
   </p>
 </div>

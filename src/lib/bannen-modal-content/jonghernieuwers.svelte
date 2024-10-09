@@ -6,7 +6,7 @@
 <div class="box">
 	<p>
 		Welkom bij de oudste ban, de jonghernieuwers! 
-		Samen met Lux, Fien & Jonas beleef je hier de zotste avonturen, zowel op ons terrein, als ver daarbuiten.
+		Samen met Lux en Tine beleef je hier de zotste avonturen, zowel op ons terrein, als ver daarbuiten.
 		Doorheen het jaar doen we de gekste activiteiten en kijken we samen uit naar een onvergetelijk zomerkamp!
 	</p>
 </div>

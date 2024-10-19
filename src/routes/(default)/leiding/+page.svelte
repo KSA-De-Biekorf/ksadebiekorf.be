@@ -70,7 +70,7 @@
       name: "Knapen",
       leiding: [
         {
-          aanspreking: Gen.Vrouw,
+          aanspreking: Gen.Man,
           phone: "0471 87 56 27",
           name: "Briek Debusschere",
         }, {
@@ -84,7 +84,7 @@
       name: "Jonghernieuwers",
       leiding: [
         {
-          aanspreking: Gen.Vrouw,
+          aanspreking: Gen.Man,
           phone: "0492 41 57 69",
           name: "Emile Vandenheede",
         }, {
@@ -104,7 +104,7 @@
       name: "Hernieuwers",
       leiding: [
         {
-          aanspreking: Gen.Man,
+          aanspreking: Gen.Vrouw,
           name: "Tine Ruckebusch",
         }, {
           name: "Lieze Maréchal"

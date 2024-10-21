@@ -3,12 +3,12 @@
   import Spotlight from '$lib/forty/spotlight.svelte';
   import Footer from '$lib/forty/footer.svelte';
 
-  const image_files = import.meta.glob('$lib/images/leiding/*.jpg', { eager: true });
+  const image_files = import.meta.glob('$lib/images/leiding/*', { eager: true });
   const images: Map<string, string> = new Map();
   let files = Object.keys(image_files);
   for (let file of files) {
     let p: string[] = file.split("/");
-    let key = p[p.length - 1].replace(".jpg", ""); // last path element + remove file extension
+    let key = p[p.length - 1].replace(".jpg", "").replace(".webp", ""); // last path element + remove file extension
     images.set(key, (image_files[file] as { default: string }).default as string);
   }
   

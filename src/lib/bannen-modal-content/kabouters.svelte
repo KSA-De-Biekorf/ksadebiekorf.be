@@ -1,6 +1,6 @@
 <header class="major">
   <h1>(piep)Kabouters</h1>
-  <h5>Leefteid: 5-8 jaar (3e kleuter, 1° en 2° leerjaar)</h5>
+  <h5>Leefteid: 5-9 jaar (3e kleuter, 1°, 2° en 3° leerjaar)</h5>
 </header>
 <h3>Woordje van de leiding</h3>
 <div class="box">

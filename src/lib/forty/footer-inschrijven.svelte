@@ -9,6 +9,8 @@
         Overtuigd?
       </h1>
       <SolidButton href="/inschrijven" label="Schrijf je in!" />
+      <br/>
+      <p>Of kom een proberen op onze <b>startdag</b> op <b>11/10</b>!</p>
     </div>
   </div>
 </section>

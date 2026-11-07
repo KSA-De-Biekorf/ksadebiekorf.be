@@ -1,6 +1,6 @@
 <header class="major">
   <h1>Jongknapen</h1>
-  <h5>Leefteid: 10-12 jaar (5° en 6° leerjaar)</h5>
+  <h5>Leefteid: 9-12 jaar (4°, 5° en 6° leerjaar)</h5>
 </header>
 <h3>Woordje van de leiding</h3>
 <div class="box">

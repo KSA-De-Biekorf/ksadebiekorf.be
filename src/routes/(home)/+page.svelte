@@ -25,19 +25,19 @@
       imgPath: kab,
       alt: "kabouters",
       title: "(piep)Kabouters",
-      desc: "3e kleuter, 1ste & 2d leerjaar",
+      desc: "3e kleuter tot 3de leerjaar",
       content: Kabouters
     }, {
-      imgPath: pag,
-      alt: "pagadders",
-      title: "Pagadders",
-      desc: "3de & 4de leerjaar",
-      content: Pagadders
-    }, {
+    //  imgPath: pag,
+    //  alt: "pagadders",
+    //  title: "Pagadders",
+    //  desc: "3de & 4de leerjaar",
+    //  content: Pagadders
+    //}, {
       imgPath: jkn,
       alt: "jongknapen",
       title: "Jongknapen",
-      desc: "5de & 6de leerjaar",
+      desc: "4de tot 6de leerjaar",
       content: Jongknapen
     }, {
       imgPath: kn,

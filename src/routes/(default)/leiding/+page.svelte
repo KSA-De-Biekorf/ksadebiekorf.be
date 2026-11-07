@@ -23,30 +23,14 @@
       leiding: [
         {
           aanspreking: Gen.Vrouw,
-          phone: "0472 94 58 21",
-          name: "Julie Rosseel",
-        }, {
-          name: "Hanne Renders",
-        }, {
-          name: "Noor Bekemans",
-        }, {
-          name: "Valentine Vermeire",
-        }
-      ]
-    }, {
-      id: "pag",
-      name: "Pagadders",
-      leiding: [
-        {
-          aanspreking: Gen.Vrouw,
-          phone: "0468 53 88 98",
-          name: "Lilou Dosselaere",
-        }, {
-          name: "Louise Brusselle",
-        }, {
+          phone: "0468 04 53 35",
           name: "Elias Hollevoet",
         }, {
-          name: "Mehrbod Farsad",
+          name: "Imani Depauw",
+        }, {
+          name: "Jaimy Van Der Velde"
+        }, {
+          name: "Hélène Van Heule"
         }
       ]
     }, {
@@ -55,48 +39,28 @@
       leiding: [
         {
           aanspreking: Gen.Vrouw,
-          phone: "0468 00 29 40",
-          name: "Perle Vanhie",
+          phone: "0467 03 50 40",
+          name: "Hanne Renders",
         }, {
-          name: "Rikke Hollevoet",
+          name: "David Ciumac",
         }, {
-          name: "Rune Vandensteen",
+          name: "Milan Willem",
         }, {
-          name: "Lukas Devriendt"
+            name: "Tim Dujardin"
         }
       ]
     }, {
       id: "kn",
-      name: "Knapen",
+      name: "Knapen en Jonghernieuwers",
       leiding: [
         {
           aanspreking: Gen.Man,
-          phone: "0471 87 56 27",
-          name: "Briek Debusschere",
+          phone: "0493 34 64 65",
+          name: "Rune Vandersteen",
         }, {
-          name: "Mauro Depauw",
+          name: "Lode Renders",
         }, {
-          name: "Arwen Masscho",
-        }
-      ]
-    }, {
-      id: "jhn",
-      name: "Jonghernieuwers",
-      leiding: [
-        {
-          aanspreking: Gen.Man,
-          phone: "0492 41 57 69",
-          name: "Emile Vandenheede",
-        }, {
-          name: "Clovis Demey",
-        }
-      ]
-    }, {
-      id: "Vlinder",
-      name: "Vlinder",
-      leiding: [
-        {
-          name: "Willem Renders",
+          name: "Artur Vandersteen"
         }
       ]
     }, {
@@ -105,9 +69,11 @@
       leiding: [
         {
           aanspreking: Gen.Vrouw,
-          name: "Tine Ruckebusch",
+          name: "Rikke Hollevoet",
         }, {
-          name: "Lieze Maréchal"
+          name: "Briek Debusschere"
+        }, {
+          name: "Emile Vandenheede"
         }
       ]
     },

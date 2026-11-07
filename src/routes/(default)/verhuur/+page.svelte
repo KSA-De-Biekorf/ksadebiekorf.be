@@ -13,8 +13,8 @@
   import PhotoViewer from '$lib/photo-viewer.svelte';
 
   let contactPersoon = {
-    name: "Thomas Dobbels",
-    phone: "0491 14 41 18",
+    name: "Briek Debusschere",
+    phone: "0471 87 56 27",
   };
   function formatPhone(phone: string): string {
     return "+32" + phone.replace(" ", "").substring(1, phone.length);
